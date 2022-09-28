@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -400 700 800">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -400 700 800" style="background-color: white;">
 	<style>
-	g polygon {
-		will-change: transform;
-	}
-	.l {
-		animation: moveX .25s .25s infinite alternate both;
-	}
-	.l2 {
-		animation: moveX .25s infinite alternate both;
-	}
-	.r {
-		animation: moveX .25s infinite alternate both;
-	}
-	.r2 {
-		animation: moveX .25s .25s infinite alternate both;
-	}
-	.m1 {
-		animation: moveY .25s infinite alternate both;
-	}
-	.m2 {
-		animation: moveY .25s .25s infinite alternate both;
-	}
-	@keyframes jellyfishing {
-		0% {
-			transform: translateY(0);
+		g polygon {
+			will-change: transform;
 		}
-		12.5% {
-			transform: translateY(12.5%);
+		.l {
+			animation: moveX .25s .25s infinite alternate both;
+		}
+		.l2 {
+			animation: moveX .25s infinite alternate both;
+		}
+		.r {
+			animation: moveX .25s infinite alternate both;
+		}
+		.r2 {
+			animation: moveX .25s .25s infinite alternate both;
+		}
+		.m1 {
+			animation: moveY .25s infinite alternate both;
+		}
+		.m2 {
+			animation: moveY .25s .25s infinite alternate both;
+		}
+		@keyframes jellyfishing {
+			0% {
+				transform: translateY(0);
+			}
+			12.5% {
+				transform: translateY(12.5%);
 
-		}
-		25% {
-			transform: translateY(-25%);
+			}
+			25% {
+				transform: translateY(-25%);
 
+			}
+			100% {
+				transform: translateY(0);
+			}
 		}
-		100% {
-			transform: translateY(0);
+		@keyframes moveX {
+			from {
+				transform: translateX(2%);
+			}
+			to {
+				transform: translateX(-2%);
+			}
 		}
-	}
-	@keyframes moveX {
-		from {
-			transform: translateX(2%);
+		@keyframes moveY {
+			from {
+				transform: translateY(-2%);
+			}
+			to {
+				transform: translateY(0);
+			}
 		}
-		to {
-			transform: translateX(-2%);
-		}
-	}
-	@keyframes moveY {
-		from {
-			transform: translateY(-2%);
-		}
-		to {
-			transform: translateY(0);
-		}
-	}
 	</style>
 	<polygon
 		points="
