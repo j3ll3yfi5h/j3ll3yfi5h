@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -400 700 800" style="background-color: white;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -400 700 800" style="padding: 150px 100px;background-color: white;">
 	<style>
 		g polygon {
 			will-change: transform;
