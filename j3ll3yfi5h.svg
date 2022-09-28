@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -400 700 800">
+	<style>
+	g polygon {
+		will-change: transform;
+	}
+	.l {
+		animation: moveX .25s .25s infinite alternate both;
+	}
+	.l2 {
+		animation: moveX .25s infinite alternate both;
+	}
+	.r {
+		animation: moveX .25s infinite alternate both;
+	}
+	.r2 {
+		animation: moveX .25s .25s infinite alternate both;
+	}
+	.m1 {
+		animation: moveY .25s infinite alternate both;
+	}
+	.m2 {
+		animation: moveY .25s .25s infinite alternate both;
+	}
+	@keyframes jellyfishing {
+		0% {
+			transform: translateY(0);
+		}
+		12.5% {
+			transform: translateY(12.5%);
+
+		}
+		25% {
+			transform: translateY(-25%);
+
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	@keyframes moveX {
+		from {
+			transform: translateX(2%);
+		}
+		to {
+			transform: translateX(-2%);
+		}
+	}
+	@keyframes moveY {
+		from {
+			transform: translateY(-2%);
+		}
+		to {
+			transform: translateY(0);
+		}
+	}
+	</style>
+	<polygon
+		points="
+			-150,-400
+			150,-400
+			150,-300
+			250,-300
+			250,-200
+			350,-200
+			350,0
+			-350,0
+			-350,-200
+			-250,-200
+			-250,-300
+			-150,-300
+		"
+	/>
+	<g>
+		<g>
+			<polygon
+				class="l2"
+				points="
+					-250,0
+					-150,0
+					-150,100
+					-250,100
+				"
+			/>
+			<polygon
+				class="m1"
+				points="
+					-50,0
+					50,0
+					50,100
+					-50,100
+				"
+			/>
+			<polygon
+				class="r2"
+				points="
+					150,0
+					250,0
+					250,100
+					150,100
+				"
+			/>
+		</g>
+		<g>
+			<polygon
+				class="l"
+				points="
+					-150,100
+					-50,100
+					-50,200
+					-150,200
+				"
+			/>
+			<polygon
+				class="r"
+				points="
+					50,100
+					150,100
+					150,200
+					50,200
+				"
+			/>
+		</g>
+		<g>
+			<polygon
+				class="l2"
+				points="
+					-250,200
+					-150,200
+					-150,300
+					-250,300
+				"
+			/>
+			<polygon
+				class="m2"
+				points="
+					-50,200
+					50,200
+					50,300
+					-50,300
+				"
+			/>
+			<polygon
+				class="r2"
+				points="
+					150,200
+					250,200
+					250,300
+					150,300
+				"
+			/>
+		</g>
+		<g>
+			<polygon
+				class="l"
+				points="
+					-150,300
+					-50,300
+					-50,400
+					-150,400
+				"
+			/>
+			<polygon
+				class="r"
+				points="
+					50,300
+					150,300
+					150,400
+					50,400
+				"
+			/>
+		</g>
+	</g>
+</svg>
